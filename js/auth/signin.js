@@ -10,12 +10,14 @@ function checkCredentials(){
     //données factif pour le moment
 
     if(mailInput.value == "test@mail.com" && passwordInput.value == "123"){
-        alert("Vous êtes connecté");
 
         //Il faudra récupérer le vrai token
         const token = "jghfghghlghkghghkghkghfgdffdfdfd";
+        setToken(token);
 
         //placer ce token en cookie
+
+        setCookie("role", "admin", 7);
 
         //Retour à la page d'acceuil
         window.location.replace("/")
