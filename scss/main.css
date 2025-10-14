@@ -12070,4 +12070,10 @@ p {
 
 .bouton {
   padding-bottom: 10px;
+}
+
+.allReservations a {
+  display: block;
+  color: #292222;
+  padding: 10px;
 }/*# sourceMappingURL=main.css.map */
